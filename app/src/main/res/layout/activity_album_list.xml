@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_album_list"
+    style="@style/ActivityLayout"
+    tools:context="com.example.android.musicalappstructure.AlbumListActivity">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/ScrollView">
+
+        <LinearLayout
+            style="@style/ScrollViewLayout" >
+
+            <LinearLayout
+                style="@style/ExplanationLayout">
+
+                <LinearLayout
+                    style="@style/ExplanationIconLayout">
+
+                    <ImageView
+                        style="@style/ExplanationIcon"
+                        android:id="@+id/explain_icon"
+                        android:src="@drawable/arrow_side"
+                        android:onClick="changeArrow" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/ExplanationText"
+                    android:text="@string/explanation_title"
+                    android:id="@+id/explanation_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/List">
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/playlist"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/BarTextLayout"
+                    android:id="@+id/exampleOnClickListener">
+
+                    <TextView
+                        style="@style/DetailTextBold"
+                        android:text="@string/album_title"/>
+
+                    <TextView
+                        style="@style/DetailText"
+                        android:text="@string/artist_name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/play_dark"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Seperator">
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/List">
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/playlist"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/BarTextLayout">
+
+                    <TextView
+                        style="@style/DetailTextBold"
+                        android:text="@string/album_title"/>
+
+                    <TextView
+                        style="@style/DetailText"
+                        android:text="@string/artist_name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/play_dark"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Seperator">
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/List">
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/playlist"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/BarTextLayout">
+
+                    <TextView
+                        style="@style/DetailTextBold"
+                        android:text="@string/album_title"/>
+
+                    <TextView
+                        style="@style/DetailText"
+                        android:text="@string/artist_name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/play_dark"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Seperator">
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/List">
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/playlist"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/BarTextLayout">
+
+                    <TextView
+                        style="@style/DetailTextBold"
+                        android:text="@string/album_title"/>
+
+                    <TextView
+                        style="@style/DetailText"
+                        android:text="@string/artist_name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/play_dark"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Seperator">
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/List">
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <LinearLayout
+                        style="@style/ListImageLayout">
+
+                        <ImageView
+                            style="@style/ListImage"
+                            android:src="@drawable/playlist"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/BarTextLayout">
+
+                    <TextView
+                        style="@style/DetailTextBold"
+                        android:text="@string/album_title"/>
+
+                    <TextView
+                        style="@style/DetailText"
+                        android:text="@string/artist_name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/play_dark"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Seperator">
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/List">
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/playlist"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/BarTextLayout">
+
+                    <TextView
+                        style="@style/DetailTextBold"
+                        android:text="@string/album_title"/>
+
+                    <TextView
+                        style="@style/DetailText"
+                        android:text="@string/artist_name"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ListImageLayout">
+
+                    <ImageView
+                        style="@style/ListImage"
+                        android:src="@drawable/play_dark"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/SeperatorLarge">
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/NowPlayingBar"
+        android:id="@+id/now_playing_bar">
+
+        <LinearLayout
+            style="@style/ListImageLayout">
+
+            <ImageView
+                style="@style/ListImage"
+                android:id="@+id/now_playing"
+                android:src="@drawable/play_dark"
+                android:onClick="changeIcon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/now_playing_bar_details"
+            style="@style/BarTextLayout">
+
+            <TextView
+                style="@style/DetailTextBold"
+                android:text="@string/title_name"/>
+
+            <TextView
+                style="@style/DetailText"
+                android:text="@string/artist_name"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

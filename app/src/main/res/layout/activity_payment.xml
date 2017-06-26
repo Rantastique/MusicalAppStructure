@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_payment"
+    style="@style/ActivityLayout"
+    tools:context="com.example.android.musicalappstructure.PaymentActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/ScrollViewMain">
+
+        <LinearLayout
+            style="@style/ScrollViewLayout">
+
+            <LinearLayout
+                style="@style/ExplanationLayout">
+
+                <LinearLayout
+                    style="@style/ExplanationIconLayout">
+
+                    <ImageView
+                        style="@style/ExplanationIcon"
+                        android:id="@+id/explain_icon"
+                        android:src="@drawable/arrow_side"
+                        android:onClick="changeArrow" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/ExplanationText"
+                    android:text="@string/explanation_title"
+                    android:id="@+id/explanation_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PayListDetail">
+
+                <TextView
+                    style="@style/PayListTextBold"
+                    android:text="@string/premium_one"/>
+
+                <LinearLayout
+                    style="@style/SeperatorLarge">
+                </LinearLayout>
+
+                <TextView
+                    style="@style/PayListTextBold"
+                    android:text="@string/premium_two"/>
+
+                <LinearLayout
+                    style="@style/SeperatorLarge">
+                </LinearLayout>
+
+                <TextView
+                    style="@style/PayListTextBold"
+                    android:text="@string/premium_three"/>
+
+                <LinearLayout
+                    style="@style/SeperatorLarge">
+                </LinearLayout>
+
+                <TextView
+                    style="@style/PayListTextBold"
+                    android:text="@string/premium_four"/>
+
+                <LinearLayout
+                    style="@style/SeperatorLarge">
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MainActivityCategorySmall"
+                android:background="@color/textColor">
+
+                <LinearLayout
+                    style="@style/BarTextLayout"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/PayListText"
+                        android:text="@string/buy_bold"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/ListImage"
+                    android:id="@+id/buy_premium"
+                    android:src="@drawable/buy"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/NowPlayingBar"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            style="@style/ListImageLayout">
+
+            <ImageView
+                style="@style/ListImage"
+                android:id="@+id/now_playing"
+                android:src="@drawable/play_dark"
+                android:onClick="changeIcon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BarTextLayout"
+            android:id="@+id/now_playing_bar">
+
+            <TextView
+                style="@style/DetailTextBold"
+                android:text="@string/title_name"/>
+
+            <TextView
+                style="@style/DetailText"
+                android:text="@string/artist_name"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

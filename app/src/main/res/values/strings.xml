@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MusicalAppStructure</string>
+    <string name="artist_name">Artist</string>
+    <string name="title_name">Title</string>
+    <string name="number_of_songs">Number of Songs</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="album_title">Album Title</string>
+    <string name="song_title">Song Title</string>
+    <string name="song_start">0:00</string>
+    <string name="song_end">3:59</string>
+    <string name="buy_bold">Get Premium now</string>
+    <string name="buy">Enjoy our Streaming Services as well</string>
+    <string name="category_name_one">Albums</string>
+    <string name="category_name_two">Artists</string>
+    <string name="category_name_three">Playlists</string>
+    <string name="category_name_four">Browse</string>
+    <string name="premium_one">Get access to thousands of songs!</string>
+    <string name="premium_two">Download songs, albums and playlists!</string>
+    <string name="premium_three">No ads, just music.</string>
+    <string name="premium_four">The first three months are free!</string>
+    <string name="explanation_title">Click on the arrow icon to show explanation.</string>
+    <string name="explanation">This is the explanation for this screen.\nRhabarber\nRhabarber\nRhabarber</string>
+    <string name="explanation_main">This is the main screen from which the user can navigate to the main categories by clicking on the respective category icon. Clicking on the "now playing" bar, which shows the title that is currently playing,  on the bottom of the screen will lead to the NowPlayingActivity, in which I also write about my idea how to set functionality to it. At the moment only the "play" button changes to "pause" when you click on it.</string>
+    <string name="explanation_album_detail">This is the screen for the album details. It shows an album image, the artist and the album name as well as the songs on the album. The first "song layout" is clickable and leads to the NowPlayingActivity. In a finished version with functionality the play icon would start the referring song.</string>
+    <string name="explanation_album_list">This is the screen for the album list, a list of all the user\'s available albums. The first "album layout" is clickable and opens the Activity with the album details.</string>
+    <string name="explanation_artist_detail">This is the screen that shows all the use r\'s available songs by an artist. The first "detail layout" is clickable and leads to the NowPlayingActivity. This view could also show albums and playlists that feature a certain artist.</string>
+    <string name="explanation_artist_list">This is the screen that shows all artists the user has got music from. The first "detail layout" is clickable and leads to the artist detail screen.</string>
+    <string name="explanation_playlist_details">This screen shows the songs a playlist contains. The first "detail layout" is clickable and starts the NowPlayingActivity.</string>
+    <string name="explanation_playlists">This is the screen that shows all the user\'s available playlists. The first "detail view" is clickable and leads to the playlist\'s details.</string>
+    <string name="explanation_browse">This is the screen where a user can search for music. To add functionality I\'d have to add a search interface that can access stored data. I\'ve found the explanation on developer.android.com quite helpful. The show results would be shown beneath the search bar.</string>
+    <string name="explanation_payment">This is the screen where the user can sign up for the premium version of \'Flow\' that also offers a streaming service. The functionality would be provided by the Android Pay API, which is a part of the Google Play Services. For paying the user needs to have the Android Pay app on their phone. There has code to be added that makes sure that the user has this app installed. Again, the developer.android.com guide on this topic is really helpful, so I\'d basically follow the steps explained there (I think there\'s no need to write them all down here?) </string>
+    <string name="explanation_now_playing">This is the now playing detail screen. You can see an image of the album the song is on, te artist and the song title. There\s a media player API and an AudioManager provided by Android, and I\'ve found a good tutorial on how to use it at android.developers.com.</string>
+</resources>
