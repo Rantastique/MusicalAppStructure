@@ -60,17 +60,16 @@
         <item name="android:layout_marginBottom">50dp</item>
     </style>
 
-    <style name="CategoryName">
-        <item name="android:layout_width">wrap_content</item>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingTop">5dp</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/textColor</item>
-        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:background">@color/colorAccent</item>
     </style>
-
 
     <style name="DetailText">
         <item name="android:layout_width">wrap_content</item>

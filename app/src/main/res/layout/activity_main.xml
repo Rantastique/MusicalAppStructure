@@ -48,7 +48,6 @@
                     style="@style/CategoryBig">
 
                     <LinearLayout
-                        android:id="@+id/album_category"
                         style="@style/MainActivityCategoryBig">
 
                         <ImageView
@@ -57,9 +56,10 @@
 
                     </LinearLayout>
 
-                    <TextView
-                        style="@style/CategoryName"
-                        android:text="@string/category_name_one" />
+                    <Button
+                        android:id="@+id/album_category"
+                        style="@style/ButtonStyle"
+                        android:text="@string/category_name_one"/>
 
                 </LinearLayout>
 
@@ -67,7 +67,6 @@
                     style="@style/CategoryBig">
 
                     <LinearLayout
-                        android:id="@+id/artist_category"
                         style="@style/MainActivityCategoryBig">
 
                         <ImageView
@@ -76,8 +75,9 @@
 
                     </LinearLayout>
 
-                    <TextView
-                        style="@style/CategoryName"
+                    <Button
+                        android:id="@+id/artist_category"
+                        style="@style/ButtonStyle"
                         android:text="@string/category_name_two"/>
 
                  </LinearLayout>
@@ -95,7 +95,6 @@
                     style="@style/CategoryBig">
 
                     <LinearLayout
-                        android:id="@+id/playlist_category"
                         style="@style/MainActivityCategoryBig">
 
                         <ImageView
@@ -104,9 +103,10 @@
 
                     </LinearLayout>
 
-                    <TextView
-                        style="@style/CategoryName"
-                        android:text="@string/category_name_three" />
+                    <Button
+                        android:id="@+id/playlist_category"
+                        style="@style/ButtonStyle"
+                        android:text="@string/category_name_three"/>
 
                 </LinearLayout>
 
@@ -114,7 +114,6 @@
                     style="@style/CategoryBig">
 
                     <LinearLayout
-                        android:id="@+id/browse_category"
                         style="@style/MainActivityCategoryBig">
 
                         <ImageView
@@ -123,9 +122,10 @@
 
                     </LinearLayout>
 
-                    <TextView
-                        style="@style/CategoryName"
-                        android:text="@string/category_name_four" />
+                    <Button
+                        android:id="@+id/browse_category"
+                        style="@style/ButtonStyle"
+                        android:text="@string/category_name_four"/>
 
                 </LinearLayout>
 

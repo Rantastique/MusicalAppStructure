@@ -15,6 +15,7 @@ public class AlbumDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_album_details);
 
+
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar_details);
 
         nowPlaying.setOnClickListener(new View.OnClickListener() {

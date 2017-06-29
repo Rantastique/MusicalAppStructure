@@ -15,6 +15,7 @@ public class ArtistDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artist_detail);
 
+
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar_details);
 
         nowPlaying.setOnClickListener(new View.OnClickListener() {

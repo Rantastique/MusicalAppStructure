@@ -15,6 +15,7 @@ public class BrowseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse);
 
+
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar_details);
         LinearLayout song = (LinearLayout) findViewById(R.id.song_example);
         LinearLayout playlist = (LinearLayout) findViewById(R.id.playlist_example);

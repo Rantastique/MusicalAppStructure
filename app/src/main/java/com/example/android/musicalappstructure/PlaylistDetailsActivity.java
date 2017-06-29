@@ -15,6 +15,7 @@ public class PlaylistDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist_details);
 
+
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar_details);
 
         nowPlaying.setOnClickListener(new View.OnClickListener() {

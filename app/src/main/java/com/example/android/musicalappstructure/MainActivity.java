@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -15,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout album = (LinearLayout) findViewById(R.id.album_category);
-        LinearLayout artist = (LinearLayout) findViewById(R.id.artist_category);
-        LinearLayout playlist = (LinearLayout) findViewById(R.id.playlist_category);
-        LinearLayout browse = (LinearLayout) findViewById(R.id.browse_category);
+        Button album = (Button) findViewById(R.id.album_category);
+        Button artist = (Button) findViewById(R.id.artist_category);
+        Button playlist = (Button) findViewById(R.id.playlist_category);
+        Button browse = (Button) findViewById(R.id.browse_category);
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar);
         LinearLayout payment = (LinearLayout) findViewById(R.id.payment);
 

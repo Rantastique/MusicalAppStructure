@@ -15,6 +15,7 @@ public class PaymentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
+
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar);
 
         nowPlaying.setOnClickListener(new View.OnClickListener() {

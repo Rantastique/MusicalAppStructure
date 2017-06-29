@@ -19,31 +19,76 @@
         </activity>
         <activity
             android:name=".PlaylistActivity"
-            android:label="Playlists" />
+            android:label="Playlists"
+            android:parentActivityName="com.example.android.musicalappstructure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".ArtistListActivity"
-            android:label="Artists" />
+            android:label="Artists"
+            android:parentActivityName="com.example.android.musicalappstructure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".AlbumListActivity"
-            android:label="All Albums" />
+            android:label="All Albums"
+            android:parentActivityName="com.example.android.musicalappstructure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".AlbumDetailsActivity"
-            android:label="Songs on this Album" />
+            android:label="Songs on this Album"
+            android:parentActivityName="com.example.android.musicalappstructure.AlbumListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlbumListActivity" />
+        </activity>
         <activity
             android:name=".PlaylistDetailsActivity"
-            android:label="Songs in this Playlist" />
+            android:label="Songs in this Playlist"
+            android:parentActivityName="com.example.android.musicalappstructure.PlaylistActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PlaylistActivity" />
+        </activity>
         <activity
             android:name=".ArtistDetailActivity"
-            android:label="Songs by this Artist" />
+            android:label="Songs by this Artist"
+            android:parentActivityName="com.example.android.musicalappstructure.ArtistListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ArtistListActivity" />
+        </activity>
         <activity
             android:name=".NowPlayingActivity"
-            android:label="Now Playing" />
+            android:label="Now Playing"
+            android:parentActivityName="com.example.android.musicalappstructure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".BrowseActivity"
-            android:label="Browse" />
+            android:label="Browse"
+            android:parentActivityName="com.example.android.musicalappstructure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".PaymentActivity"
-            android:label="Get Flow Premium" />
+            android:label="Get Flow Premium"
+            android:parentActivityName="com.example.android.musicalappstructure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

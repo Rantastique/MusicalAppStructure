@@ -15,6 +15,7 @@ public class ArtistListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artist_list);
 
+
         LinearLayout nowPlaying = (LinearLayout) findViewById(R.id.now_playing_bar_details);
         LinearLayout example = (LinearLayout) findViewById(R.id.exampleOnClickListener);
 

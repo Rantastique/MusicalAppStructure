@@ -5,6 +5,7 @@
     style="@style/ActivityLayout"
     tools:context="com.example.android.musicalappstructure.AlbumDetailsActivity">
 
+
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         style="@style/ScrollView">
 
